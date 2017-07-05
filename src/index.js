@@ -12,7 +12,7 @@ import chalk from 'chalk';
 async function launchChrome() {
     return await launch({
         port: 9222,
-        chromeFlags: ['--window-size=412,732', '--disable-gpu', '--headless']
+        chromeFlags: ['--window-size=412,732', '--disable-gpu']
     })
 }
 /* jshint ignore: end */
